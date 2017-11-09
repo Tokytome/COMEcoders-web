@@ -4,14 +4,14 @@ body {
 }
 
 .card {
-  padding: 15px 25px 25px 25px;
+  padding: 15px 25px 0px 25px;
 }
 
 .data {
-  padding: 15px 25px 25px 25px;
   background-image: url("background.svg");
   background-repeat: repeat;
-
+  margin-top: 240px;
+  padding: 15px 25px 25px 25px;
 }
 
 .description {
@@ -28,6 +28,10 @@ body {
   margin: 0;
 }
 
+main {
+  position: relative;
+}
+
 nav {
   padding: 40px 25px 15px 25px;
 }
@@ -38,13 +42,16 @@ nav a {
 }
 
 .photography img {
-  width: 80%;
+  float: left;
+  padding: 0px 25px 25px 25px;
+  position: absolute;
+  width: 65%;
 }
 
 .social {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 50px;
   width: 120px;
 }
 
